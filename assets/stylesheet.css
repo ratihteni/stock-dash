@@ -1,0 +1,20 @@
+.box{
+    border-radius: 20px;
+    background-color: #EDEFEB;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+@media (min-width: 768px) {
+    .full {
+        position: fixed;
+        bottom: 0;
+        overflow: scroll;
+        top : 0;
+        left: 0;
+        padding: 4rem, 1rem;
+        background-color: #404040;
+        color: white;
+    }
+}
